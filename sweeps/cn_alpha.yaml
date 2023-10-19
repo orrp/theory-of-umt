@@ -1,0 +1,27 @@
+program: src/run_cn.py
+method: grid
+name: cn_alpha
+command:
+  - ${interpreter}
+  - ${program}
+  - ${args}
+metric:
+  name: avg_error
+  goal: minimize
+parameters:
+  P_size:
+    value: 1000000
+  T_size:
+    value: 100000
+  num_translators:
+    value: 1000000
+  num_translators_to_valid:
+    value: 1000
+  train_size:
+    value: 100
+  valid_size:
+    value: 1000
+  seed:
+    values: [0, 1, 2, 3, 4, 5]
+  alpha:
+    values: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
