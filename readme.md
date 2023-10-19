@@ -4,7 +4,7 @@
 Code for running the experiments accompanying _[A Theory of Unsupervised Translation Motivated by Understanding Animal Communication](https://arxiv.org/abs/2211.11081)_ (NeurIPS 2023).
 
 ## Setup
-1`git clone https://github.com/orrp/theory-of-umt.git`
+1. `git clone https://github.com/orrp/theory-of-umt.git`
 2Recommended: [Create a new conda environment and activate it](https://conda.io/docs/test-drive.html).
 Tested with Python 3.11.
 3. `cd theory-of-umt`
