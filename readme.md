@@ -36,7 +36,7 @@ You can even run the command from different machines, as long as they have this
 repository installed.
 
 Once the sweep is finished, view it by following the above URL. The graph depicted
-there should match the one in the paper (up to axis/legend names and colors).
+there should match the one in the paper, up to an easy configuration of the graph panel (`Grouping->Range->Std Err` and axis/legend names).
 
 ## Citation
 ```
