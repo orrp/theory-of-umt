@@ -5,7 +5,7 @@ Code for running the experiments accompanying _[A Theory of Unsupervised Transla
 
 ## Setup
 1. `git clone https://github.com/orrp/theory-of-umt.git`
-2Recommended: [Create a new conda environment and activate it](https://conda.io/docs/test-drive.html).
+2. Recommended: [Create a new conda environment and activate it](https://conda.io/docs/test-drive.html).
 Tested with Python 3.11.
 3. `cd theory-of-umt`
 4. `pip install -e .`
